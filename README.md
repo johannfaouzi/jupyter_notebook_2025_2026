@@ -26,5 +26,7 @@ TODO
 Pour effectuer ces travaux pratiques en local sur votre ordinateur portable, il vous faudra :
 
 * installer JupyerLab (voir les [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)),
-* installer les paquets Python suivants : `matplotlib` `numpy`, `pandas`, `scikit-learn` et `scipy`, et
-* lancer JupyterLab (voir les [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)).
+* installer les paquets Python suivants : `matplotlib` `numpy`, `pandas`, `scikit-learn` et `scipy` : `pip install matplotlib numpy pandas scikit-learn scipy`
+* créer votre dépôt à partir de celui-ci (*Use this template*) puis cloner votre dépôt sur votre ordinateur portable,
+* lancer JupyterLab (voir les [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)), et
+* aller dans votre dépôt.
