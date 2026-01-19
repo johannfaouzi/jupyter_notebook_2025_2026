@@ -22,7 +22,7 @@ Bien que de nombreux environnements de développement intégré permettent de tr
 * Datalab : Lancer un service Jupyer-python
   * Dans l'onglet Git, coller l'adresse https de votre dépôt
 
-Les service se lance et le clone est automatiquement créé.
+Le service se lance et le clone est automatiquement créé.
 
 * Installer les packages
   * Ouvrir un terminal (File > New > Terminal)
