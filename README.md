@@ -2,6 +2,13 @@
 
 Ce dépôt contient les supports pour le cours d'introduction aux notebooks Jupyter.
 
+
+## Création de votre dépôt GitHub
+
+Connectez-vous sur GitHub, cliquez sur *Use this template* (en haut à droite) et créer votre dépôt.
+C'est ce dépôt que vous clonerez ensuite (sur Onyxia ou en local).
+
+
 ## Travail à effectuer en amont de la séance de travaux pratiques
 
 En amont de la séance de travaux pratiques, vous devez lire les 4 notebooks suivants :
@@ -38,3 +45,8 @@ Pour effectuer ces travaux pratiques en local sur votre ordinateur portable, il 
 * créer votre dépôt à partir de celui-ci (*Use this template*) puis cloner votre dépôt sur votre ordinateur portable,
 * lancer JupyterLab (voir les [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/starting.html)), et
 * aller dans votre dépôt.
+
+
+### Travail pendant la séances de travaux pratiques.
+
+Il y a quatre notebooks (dans le dossier `notebooks`) dont le nom commence par `Exercices` : deux énoncés (un sur NumPy, un sur pandas) et leurs corrections.
