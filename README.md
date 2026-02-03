@@ -57,11 +57,17 @@ Si vous rencontrez une difficulté, privilégiez les questions à votre chargé�
 
 ### Sauvegarder votre travail
 
-Contrairement à Visual Studio Code, vous n'avez pas d'interface graphique avec les notebooks Jupyter pour la gestion de versions.
-Vous allez donc devoir exécuter les commandes git dans le terminal.
 Nous ne sauvegarderons que les notebooks Jupyter (et pas les éventuels fichiers téléchargés pour l'exercice sur pandas).
+N'oubliez pas de sauvegarder tous les notebooks sur lesquels vous avez travaillé et pour lesquels vous souhaitez conserver les modifications.
+Ensuite, deux options sont possibles :
 
-À la racine de votre dépôt, exécutez les commandes suivantes :
-* `git add *.ipynb` : elle ajoute tous les fichiers dont les noms se terminent par `.ipynb`, c'est-à-dire les notebooks Jupyter.
-* `git commit -m "Mon travail en TP"` : elle enregistre vos modifications dans une nouvelle version locale.
-* `git push` : elle envoie votre version locale sur la version distante.
+* **Option 1 : exécutez les commandes git dans un terminal**. À la racine de votre dépôt, exécutez les commandes suivantes :
+  + `git add *.ipynb` : elle ajoute tous les fichiers dont les noms se terminent par `.ipynb`, c'est-à-dire les notebooks Jupyter.
+  + `git commit -m "Mon travail en TP"` : elle enregistre vos modifications dans une nouvelle version locale.
+  + `git push` : elle envoie votre version locale sur la version distante.
+
+* **Option 2 : utilisez l'interface graphique**. Tout à gauche, cliquez sur l'onglet git, puis :
+  + Dans la section *Changed*, ajoutez tous les fichiers pour lesquels vous voulez enregistrer les modifications.
+  + Dans la section *Stash*, ajoutez un résumé (*summary*), c'est-à-dire le titre de votre commit.
+  + Cliquez sur *COMMIT* en bas.
+  + Cliquez sur l'icône *Push commited changes* (en haut à gauche, un point orange devrait se trouver juste à côté).
